@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Player_style.css"> <!-- Link to the css file of players' page-->
+  <script src="Player_script.js" defer></script> <!-- Link to the js file  of players' page-->
+  <title>Tic-Tac-Toe-Game</title>
+</head>
+<body>
+  
+  <h1>Tic-Tac-Toe</h1> <!-- Title in h1 format -->
+  <table id="scoreboard" align="center">
+    <!-- Players -->
+    <tr>
+      <td> Player 1 </td>
+      <td width="30"> &nbsp; </td>
+      <td> Player 2 </td>
+    </tr>
+    <!-- End of players -->
+    
+    <!-- Score of player 1 -->
+    <tr>
+      <td class="score" id="player1">
+        0 
+      </td>
+      <!-- End of score -->
+      <td> &nbsp; </td>
+      <!-- Score of player 2 -->
+      <td class="score" id="player2">
+        0 
+      </td>
+      <!-- End of score -->
+    </tr>
+  </table>
+  
+  
+  <div id="placeholder"></div>
+  
+  <!-- Replay button -->
+  <button onclick="restart()" style="color:black;">
+    Replay
+  </button>
+  <!-- End of replay button -->
+
+  <!-- Back button -->
+  <button>
+    <a href="HomePage_Index.html" style="color:black;">
+    Back
+  </a>
+  </button>
+  <!-- End of back button -->
+  
+  </select>
+</body>
+</html>
