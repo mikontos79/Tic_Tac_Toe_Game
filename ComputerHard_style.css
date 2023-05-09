@@ -1,0 +1,86 @@
+/* This section edits the body */
+body {
+  background:	#dadada;
+  font: normal 16px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* End of body's section */
+
+a:link { text-decoration: none; /* This section is for the link */
+}
+
+/* This section edits the whole game */
+td {
+    border:  3px solid #333;
+    height:  200px;
+    width:  200px;
+    text-align:  center;
+    vertical-align:  middle;
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size:  50px;
+    cursor: pointer;
+  
+}
+
+table {
+    position: relative;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin: 30px auto;
+}
+
+table tr:first-child td {
+  font-size: 50px;
+    border-top: 0;
+}
+
+table tr:last-child td {
+  font-size: 50px;
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+  font-size: 50px;
+    border-left: 0;
+}
+
+table tr td:last-child {
+  font-size: 50px;
+    border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(99, 103, 98, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+/* End of game's section */
+
+/* This section edits the buttons */
+button{
+  font-size: 18px;
+  padding: 1em 2.4em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: transparent;
+  border: 2px solid 	#a7a7a7;
+  transition: 250ms ease-in-out;
+}
+
+button:hover{
+  box-shadow: 
+  0 0 50px 50px 	#a7a7a7 inset,
+  0 0 10px 	#a7a7a7;
+}
+/* End of buttons' section */
